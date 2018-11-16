@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Users_Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="~/css/main.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:768px) and (max-width:980px)" href="~/css/largestyle.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:600px) and (max-width:767px)" href="~/css/mediumstyle.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:445px) and (max-width:599px)" href="~/css/smallstyle.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and (max-width:444px)" href="~/css/xsmallstyle.css" />
+ 
+
+</head>
+<body style="background: #e2e2e2">
+    <form id="form1" runat="server" >
+    <div class="global-container">
+        <nav>
+            <div id="navbar">
+                    <asp:Image ID="LPic" CssClass="adjustPic" ImageUrl="~/Images/Logo.jpg" runat="server"/>
+                   <!-- <a id="navLogOut" class="navbar-content" runat="server" onclick="navLogOut_Click" style="text-decoration:none;">LogOut</a> -->
+                    <a id="navShouts" class="navbar-content" runat="server" onclick="navShouts_Click" style="text-decoration:none;">Shouts</a>
+                    <a id="navQuestion" class="navbar-content" runat="server" onclick="navQuestion_Click" style="text-decoration:none;">Question</a>             
+                </div>
+                <asp:ImageButton ID="imgButton" class="navbar-content" runat="server" 
+            ImageUrl="../Images/red.jpg" 
+            style="border-radius:50%; position:absolute; top:5px; right: 35px" 
+            Height="50px" Width="50px" onclick="imgButton_Click" />
+            </div>
+        </nav>
+       
+        <main>
+            <asp:ContentPlaceHolder id="PlaceholderContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+        
+        <footer>
+                <div id="footer">
+                    <div id="social">
+                        <asp:ImageButton ID="socialFb" CssClass="social-cons" 
+                            ImageUrl="~/Images/fb.png" runat="server" onclick="socialFb_Click" />
+                        <asp:ImageButton ID="socialTwitter" CssClass="social-cons" 
+                            ImageUrl="~/Images/twitter.png" runat="server" onclick="socialTwitter_Click" />
+                        <asp:ImageButton ID="socialGoogle" CssClass="social-cons" 
+                            ImageUrl="~/Images/google+.png" style="margin-right:0px" runat="server" 
+                            onclick="socialGoogle_Click" />
+                    </div>
+                </div>
+         </footer>
+    </div>
+    </form>
+</body>
+</html>

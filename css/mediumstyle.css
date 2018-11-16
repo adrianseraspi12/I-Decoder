@@ -1,0 +1,325 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: Arial, Sans-Serif;
+    color: #221F51;
+}
+
+.global-container {
+    font-size: 1.6em;
+    margin: 0 auto;
+    background-color: White;
+}
+
+.logo {
+    float: left; 
+    margin-left: 20px
+}
+
+#logoPic {
+    Height:64px;
+    Width:128px;
+}
+
+.headerList {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: -moz-linear-gradient(rgb(141, 208, 253) 85%, rgb(23, 142, 224) 15%);
+    list-style-type: none;
+}
+
+.headerList-item {
+    float: right;
+}
+
+.itemOne, .itemTwo, .itemThree, .itemFour {
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 30px 14px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.itemOne:hover, .itemTwo:hover, .itemThree:hover, .itemFour:hover {
+    background: -moz-linear-gradient(rgb(23, 142, 224) 85%, rgb(141, 208, 253) 15%);
+    color: White;
+}
+
+.wrapper {
+    height: 265px;
+    background: rgb(224, 59, 23);
+}
+
+#headerPic {
+    Width: 380px;
+    Height: 265px;
+}
+
+.header-text {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0, 0.5);
+    width: 320px;
+    height: 235px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    border-radius: 20px;
+    top: 90px;
+    left: 30px;
+}
+
+.textHeader {
+    width: 260px;
+    position: absolute;
+    top: 140px;
+    left: 60px;
+    color: White;
+ }
+ 
+ .textHeaderLI {
+    width: 260px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: White;
+ }
+ 
+ .joinTitle {
+     margin-bottom: 7px;
+     font-size: 1.4em;
+ }
+ 
+ .joinDescription {
+     font-size: 0.7em;   
+ }
+
+/* login and SignUp */
+#SU {
+    bottom: 235px;
+    left: 420px;
+    font-size: 0.9em
+}
+    
+#LI {
+    bottom: 215px;
+    left: 420px;
+    font-size: 0.9em;
+}
+
+.LogIn, .SignUp {
+    height: 240px;
+    width: 180px;
+    position: relative;
+    color: White;
+}
+
+
+.uName, .pWord {
+    font-size: 0.9em;
+    width: auto;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    color: White;
+}
+
+.login {
+    font-size: 0.7em;
+    cursor: pointer;
+    color: White;
+    border-radius: 10px;
+    border: 2px solid white;
+    outline: none;
+    background: transparent;
+    height: 23.5px;
+    width: 50px;
+}
+
+.btnlogin:hover {
+    background: white;
+    color: Black;
+}
+
+.introduction-block {
+    width: 580px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.intro {
+    display: inline-block;
+    width: 575px;
+    margin: 20px 0px 10px 10px;
+    text-align: left;
+    
+}
+
+.intro-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#connectPic, #sharePic, #aamPic {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* footer */
+.footer {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: rgb(23, 142, 224);
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    margin-bottom: -5em;
+    height: 10em;
+    background: rgb(23, 142, 224);
+}
+
+#social {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 115px;
+    top: 20px;
+}
+
+.social-cons {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+}
+/*-------------------------------------- LogIn Page Design END ------------------------------------------
+  -------------------------------------------------------------------------------------------------------*/
+  
+/*-------------------------------------- Master Page Design ------------------------------------------------*/
+
+#navbar {
+    overflow:hidden;
+    background: -moz-linear-gradient(rgb(141, 208, 253) 85%, rgb(23, 142, 224) 15%);
+}
+
+#navbar a {
+    float: right;
+    font-size: 1.0em;
+    color: Black;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    float:right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    font-size: 1.0em;
+    cursor: pointer;
+    background: transparent;
+    padding: 26px 20px; 
+    float: right;
+}
+
+#navbar a:hover, .dropdown:hover .dropbtn {
+    background: -moz-linear-gradient(rgb(23, 142, 224) 85%, rgb(141, 208, 253) 15%);
+    color: white;
+}
+
+.adjustPic {
+    margin-left: 20px;
+    Height: 61px;
+    Width: auto;
+}
+
+/*-----------------------------------Questions----------------------------------------*/
+.global-content {
+    background: #e2e2e2;
+}
+
+#content {
+    margin: 20px auto;
+    box-sizing:border-box;
+    width: 80%; 
+    background: white;
+    padding-bottom: 100px;
+}
+
+.container-Question {
+    margin-right: 0;
+    font-size: 1.2em;
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    overflow-y:scroll;
+}
+
+.questionDate {
+    float: right;
+}
+
+.text-help {
+    margin: 40px 0 0 70px;
+    font-size: 1.0em;  
+}
+
+.btnAsk {
+    border: none;
+    outline: none;
+    background: rgb(23, 142, 224);
+    height: 26px;
+    width: 76px;
+    cursor: pointer;
+    margin-top: 7px;
+    font-size: 1.0em;
+}
+
+.QTitle {
+    width: 60%;
+    font-size: 2.0em;
+}
+
+.QDescription {
+    width: 60%;
+    font-size: 1.8em;
+}
+
+#QandA {
+    position: relative;
+    left: 70px;
+    margin-top: 20px;
+}

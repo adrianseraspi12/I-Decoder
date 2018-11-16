@@ -1,0 +1,492 @@
+﻿* {
+    padding: 0;
+    -webkit-box-sizing: border-box;/*edit*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: Arial, Sans-Serif;
+    color: #221F51;
+}
+
+.global-container {
+    font-size: 1.6em;
+    margin: 0 auto;
+    background-color: White;
+}
+/* NAVBAR */
+.logo {
+    float: left; 
+    margin-left: 20px;
+}
+
+#logoPic {
+    Height:68px;
+    Width: 120px;
+}
+
+.headerList {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: -moz-linear-gradient(rgb(141, 208, 253) 85%, rgb(23, 142, 224) 15%); /*edit*/
+    background: -webkit-linear-gradient(rgb(141, 208, 253) 85%, rgb(23, 142, 224) 15%);
+    background: -ms-linear-gradient(rgb(141, 208, 253) 85%, rgb(23, 142, 224) 15%);
+    list-style-type: none;
+}
+
+.headerList-item {
+    float:right;
+}
+
+.itemTwo, .itemThree, .itemFour {
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 30px 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.itemTwo:hover, .itemThree:hover, .itemFour:hover {
+    background: -moz-linear-gradient(rgb(23, 142, 224) 85%, rgb(141, 208, 253) 15%);/*edit*/
+    background: -webkit-linear-gradient(rgb(23, 142, 224) 85%, rgb(141, 208, 253) 15%);
+    background: -ms-linear-gradient(rgb(23, 142, 224) 85%, rgb(141, 208, 253) 15%);
+    color: White;
+}
+/* End of Design */
+
+/* Header Design */
+.wrapper {
+    height: 375px;
+    background: rgb(224, 59, 23);
+}
+
+#headerPic {
+    Width: 670px;
+    height: 375px;
+}
+
+.header-text {
+    -webkit-box-sizing: border-box;/*edit*/
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5); /*edit*/
+    width: 540px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    border-radius: 20px;
+    top: 105px;
+    left: 60px;
+}
+
+.textHeader {
+    width: 480px;
+    position: absolute;
+    top: 175px;
+    left: 90px;
+    color: White;
+ }
+ 
+ .textHeaderLI {
+    width: 480px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    color: White;
+ }
+ 
+ .joinTitle {
+     margin-bottom: 10px
+ }
+
+/* login and SignUp */
+#SU {
+    bottom: 320px;
+    left: 720px;
+    font-size: 1.3em
+}
+    
+#LI {
+    bottom: 280px;
+    left: 720px;
+    font-size: 1.3em;
+}
+
+.LogIn, .SignUp {
+    height: 300px;
+    width: 261.5px;
+    position: relative;
+    color: White;
+}
+
+.uName, .pWord {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    width: 247.5px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    outline: none;
+    color: White;
+}
+
+.login {
+    cursor: pointer;
+    color: White;
+    border-radius: 10px;
+    border: 2px solid white;
+    outline: none;
+    background: transparent;
+    height: 35px;
+    width: 85px;
+}
+
+.login:hover {
+    background: white;
+    color: Black;
+}
+
+/* End of Design */
+
+/* introduction */
+.introduction-block {
+    width: 960px;
+    margin: 30px auto;
+}
+
+.intro {
+    display: inline-block;
+    width: 290px;
+    margin-right: 40px;
+}
+
+.intro-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.third-intro {
+    margin-right: 0;
+}
+    
+
+#connectPic, #sharePic, #aamPic {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+/* footer */
+.footer {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: rgb(23, 142, 224);
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    margin-bottom: -5em;
+    height: 10em;
+    background: rgb(23, 142, 224);
+}
+
+#social {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    top: 30px;
+}
+
+.social-cons {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
+}
+/*-------------------------------------- LogIn Page Design END ------------------------------------------
+  -------------------------------------------------------------------------------------------------------*/
+  
+/*-------------------------------------- Master Page Design ------------------------------------------------*/
+
+#navbar {
+    overflow:hidden;
+    background: -moz-linear-gradient(rgb(141, 208, 253) 85%, rgb(23, 142, 224) 15%);
+    background: -ms-linear-gradient(rgb(141, 208, 253) 85%, rgb(23, 142, 224) 15%);/*edit*/
+    background: -webkit-linear-gradient(rgb(141, 208, 253) 85%, rgb(23, 142, 224) 15%);
+}
+
+#navbar a {
+    float: right;
+    position: relative;
+    right: 90px;
+    font-size: 1.0em;
+    color: Black;
+    text-align: center;
+    padding: 26px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    float:right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    font-size: 1.0em;
+    cursor: pointer;
+    background: transparent;
+    padding: 26px 20px; 
+    float: right;
+}
+
+#navbar a:hover, .dropdown:hover .dropbtn {
+    background: -moz-linear-gradient(rgb(23, 142, 224) 85%, rgb(141, 208, 253) 15%);
+    background: -ms-linear-gradient(rgb(23, 142, 224) 85%, rgb(141, 208, 253) 15%);/*edit*/
+    background: -webkit-linear-gradient(rgb(23, 142, 224) 85%, rgb(141, 208, 253) 15%);
+    color: white;
+}
+
+.dropdown-content {
+    position: relative;
+    left: 982px;
+    background: rgb(23, 142, 224);
+    font-size: 1.0em;
+    display: block;
+    width: 103px;
+}
+
+.dropdown-content a {
+    padding: 15px 22px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: White;
+}
+
+.dropdown-content a:hover {
+    background: -moz-linear-gradient(rgb(141, 208, 253)85%,  rgb(23, 142, 224)15%);
+    background: -webkit-linear-gradient(rgb(141, 208, 253)85%,  rgb(23, 142, 224)15%);
+    background: -ms-linear-gradient(rgb(141, 208, 253)85%,  rgb(23, 142, 224)15%);/*edit*/
+    color: Black;
+}
+
+.adjustPic {
+    margin-left: 20px;
+    Height: 61px;
+    Width: auto;
+}
+/*-----------------------------------Questions----------------------------------------*/
+.global-content {
+    background: #e2e2e2;
+}
+
+#content {
+    margin: 20px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;/*edit*/
+    box-sizing:border-box;
+    min-height: 447px;
+    width: 80%; 
+    background: white;
+    padding-bottom: 100px;
+}
+
+.container-Question, .asking-container, .question,
+.answer-question {
+    margin-right: 0;
+    font-size: 1.4em;
+    width: 80%;
+    height: 80%;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.questionDate {
+    float: right;
+}
+
+.text-help {
+    margin: 40px 0 0 80px;
+    font-size: 1.4em;  
+}
+
+.btnAsk, .btnAnswerQuestions {
+    border: none;
+    height: 45px;
+    width: 125px;
+    outline: none;
+    background: rgb(23, 142, 224);
+    color: Black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.QTitle {
+    width: 60%;
+    font-size: 2.6em;
+}
+
+.QDescription {
+    width: 60%;
+    font-size: 1.9em;
+}
+
+#QandA {
+    position: relative;
+    left: 80px;
+    margin-top: 40px;
+}
+
+.btnAsk:hover, .btnAnswerQuestions:hover {
+    background: rgb(17, 107, 168);
+    color: Black;
+}
+/*-------------------------------------- AskQuestion Page Design ------------------------------------------------*/
+.titleBox
+{
+    font-size:1.2em; 
+    font-weight:lighter;
+}
+ .descriptionBox, .text-size, {
+     font-size: 1.4em
+ }
+ 
+ .remaining-characters {
+     font-size: 0.8em;
+     color: rgb(89, 89, 89);
+     float: right;
+ }
+/*-------------------------------------- SelectedQuestion Page Design ------------------------------------------------*/
+.asked {
+    font-size: 1.3em;
+}
+
+.QDescription {
+    font-size: 1.1em;
+}
+.buttonPost {
+    border-style: none;
+    height: 45px;
+    width: 125px;
+    outline: none;
+    background: rgb(23, 142, 224);
+    color: Black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.container-Answer {
+    margin-right: 0;
+    font-size: 1.4em;
+    width: 80%;
+    height: 350px;
+    overflow-y: scroll;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;   
+}
+.answerBox {
+    font-size: 1.6em;
+}
+.answer-Indent {
+    margin-left: 40px;   
+}
+
+.titleWidth, .answerWidth, .answeredWidth {
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.width {
+    width: 800px;
+}
+.answer-font {
+    font-size: 1.1em;
+    margin-right: 5px;   
+}
+/*-------------------------------------- Shouts Page Design ------------------------------------------------*/
+.titleShout {
+    font-size: 2.6em;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.mes-align {
+    margin: 0;
+    width: 100%;
+    font-size: 1.1em;
+}
+.container-chat {
+    margin-right: 0;
+    font-size: 1.4em;
+    width: 80%;
+    height: 350px;
+    overflow-y: scroll;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ShoutButton {
+    border: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    height: 35px;
+    width: 75px;
+    outline: none;
+    background: rgb(23, 142, 224);
+    color: Black;
+    cursor: pointer;
+}
+.userBox {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.userPic {
+     Height:75px;
+     Width:75px;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+}
+.ShoutButton:hover, .buttonPost:hover {
+    background: rgb(17, 107, 168);
+}
+.shouts {
+    font-size: 1.5em;
+    color: rgb(89, 89, 89);
+    float: right; 
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid gray;
+    -moz-border-radius: 50px; 
+    -webkit-border-radius: 50px; 
+    border-radius: 50px;
+}
